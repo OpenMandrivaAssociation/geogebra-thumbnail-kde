@@ -2,7 +2,7 @@ Name:           geogebra-thumbnail-kde
 Summary:        KDE Thumbnail Creator for GeoGebra files
 Version:        0.45.1
 Release:        %mkrel 1
-Group:          Productivity/Scientific/Math
+Group:          Sciences/Mathematics
 Url:            http://www.geogebra.org/en/wiki/index.php/GeoGebra_in_Linux
 License:        LGPLv3
 Source:         GeoGebra_Thumbnail_KDE.tar.gz
@@ -53,6 +53,7 @@ cmake -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` ..
 make
 
 %install
+rm -rf %{buildroot}
 %{__install} -d -m755 %{buildroot}%{_docdir}/%{name}
 %{__install} -m644 LICENSE %{buildroot}%{_docdir}/%{name}/COPYING
 for SIZE in 16x16 22x22 32x32 48x48 64x64 128x128 256x256; do
