@@ -3,7 +3,7 @@ Summary:        KDE Thumbnail Creator for GeoGebra files
 Version:        0.45.1
 Release:        %mkrel 1
 Group:          Sciences/Mathematics
-Url:            http://www.geogebra.org/en/wiki/index.php/GeoGebra_in_Linux
+Url:            https://www.geogebra.org/en/wiki/index.php/GeoGebra_in_Linux
 License:        LGPLv3
 Source:         GeoGebra_Thumbnail_KDE.tar.gz
 Source1:        geogebrathumbnail.desktop
